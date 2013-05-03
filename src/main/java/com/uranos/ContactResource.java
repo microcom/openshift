@@ -12,8 +12,11 @@ public class ContactResource {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Contact sayHello() {
 	  Contact c = new Contact();
-	  c.setNom("S");
-	  c.setProvince("Qc");
+	  c.setNom("Stéphane");
+	  c.setPrenom("Le Cornec");
+	  c.setProvince("Québec");
+	  c.setRue("Jean-Talon");
+	  c.setVille("Montréal");
 	  return c;
 	}
 }
