@@ -9,7 +9,7 @@ import javax.ws.rs.core.MediaType;
 public class ContactResource {
 	
 	@GET()
-	@Produces(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON + "; charset=utf-8")
 	public Contact sayHello() {
 	  Contact c = new Contact();
 	  c.setNom("Stéphane");
