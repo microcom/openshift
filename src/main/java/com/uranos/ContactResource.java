@@ -20,6 +20,7 @@ public class ContactResource {
 	  c.setProvince("Québec");
 	  c.setRue("Jean-Talon");
 	  c.setVille("Montréal");
+	  c.setCodePostal("H1P3C3");
 	  return c;
 	}
 }
