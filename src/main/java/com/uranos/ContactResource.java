@@ -8,6 +8,7 @@ import javax.ws.rs.core.MediaType;
 import org.apache.cxf.rs.security.cors.CrossOriginResourceSharing;
 
 @Path("/ws/test")
+@CrossOriginResourceSharing(allowAllOrigins = true)
 public class ContactResource {
 	
 	@GET()
