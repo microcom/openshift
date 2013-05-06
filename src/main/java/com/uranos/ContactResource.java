@@ -5,10 +5,13 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import org.apache.cxf.rs.security.cors.CrossOriginResourceSharing;
+
 @Path("/ws/test")
 public class ContactResource {
 	
 	@GET()
+	@CrossOriginResourceSharing(allowAllOrigins = true)
 	@Produces(MediaType.APPLICATION_JSON + "; charset=utf-8")
 	public Contact sayHello() {
 	  Contact c = new Contact();
