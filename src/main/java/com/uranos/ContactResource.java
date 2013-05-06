@@ -12,7 +12,7 @@ import org.apache.cxf.rs.security.cors.CrossOriginResourceSharing;
 public class ContactResource {
 	
 	@GET()
-	@CrossOriginResourceSharing(allowAllOrigins = true)
+	@CrossOriginResourceSharing(allowAllOrigins = false)
 	@Produces(MediaType.APPLICATION_JSON + "; charset=utf-8")
 	public Contact sayHello() {
 	  Contact c = new Contact();
