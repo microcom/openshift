@@ -9,7 +9,7 @@ import javax.ws.rs.core.Response.ResponseBuilder;
 
 import org.apache.cxf.rs.security.cors.CrossOriginResourceSharing;
 
-@Path("/ws/test")
+@Path("/contact")
 public class ContactResource {
 	
 	@GET()
