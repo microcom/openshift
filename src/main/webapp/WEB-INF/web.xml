@@ -35,7 +35,7 @@
 	<!-- Associe le filtre CORS au servlet JAXServlet -->
 	<filter-mapping>
 	  <filter-name>CORS</filter-name>
-	  <servlet-name>JAXServlet</servlet-name>
+	  <servlet-name>Resteasy</servlet-name>
 	</filter-mapping>
 	<!-- Associes le filtre CORS aux URLs spécifiées, cet URL étant géré par le servlet -->
 	<filter-mapping>
